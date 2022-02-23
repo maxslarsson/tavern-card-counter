@@ -6,8 +6,7 @@ authors = ["Max Larsson <maxslarsson@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-PyAutoGUI = "^0.9.53"
-opencv-python = "^4.5.5"
+pyperclip = "^1.8.2"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.931"
