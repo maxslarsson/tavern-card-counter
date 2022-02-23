@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tavern-card-counter"
+version = "0.1.0"
+description = "♣️ A card counter for the Tavern on the Thor Financial Discord"
+authors = ["Max Larsson <maxslarsson@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyAutoGUI = "^0.9.53"
+opencv-python = "^4.5.5"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.931"
+black = "^22.1.0"
+pytest = "^7.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
